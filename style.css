@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .site-inteiro{
     width: 1000px;
@@ -52,7 +55,7 @@
 
 }
 .titulo-cardapio,
-.titulo-galeria
+.titulo-galeria,
 .titulo-contato{
     margin-top: 50px;
     font-family: 'cookie';
@@ -60,7 +63,6 @@
     font-size: 45px;
     color : #cb9973;
     text-align: center;
- 
 }
 
 .lista-cardapio{
@@ -104,4 +106,26 @@
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50;
+}
+
+.rodape{
+    text-align: center;
+    margin-top: 5px solid #6b6b6b;
+    padding: 20%;
+
+}
+.titulo-rodape{
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 30px;
+    font-family: 'cookie';
+    color: #6b705b;
+    margin-bottom: 20px;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.redes-sociais a{
+    text-decoration: none;
 }
